@@ -1,0 +1,69 @@
+body{
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-position: auto;
+  background-repeat: no-repeat;
+  font-family: 'Nunito', sans-serif;
+}
+body > div{
+  width: 63%;
+  background-color:rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* header */
+div > header{
+  text-align: center;
+  padding-top: 70px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: auto;
+}
+header > img{
+  width: 250px;
+}
+header > h1{
+  color: #02dc02;
+  margin: 0;
+}
+header > div{
+  background-color: #02dc02;
+  height: 25px;
+  padding: 10px;
+}
+/* main */
+main > div{
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 20px;
+}
+div span{
+  color: white;
+  display: inline-block;
+  font-size: 22px;
+}
+main p{
+  color: white;
+  font-size: 15px;
+  margin: 0;
+}
+#Battery1{
+  width: 280px;
+  background-color: #efb449;
+  border-radius: 5px;
+}
+#Battery2{
+  width: 500px;
+  background-color: #05bc05;
+  border-radius: 5px;
+}
+#Battery3{
+  width: 120px;
+  background-color: #c83636;
+  border-radius: 5px;
+}
+div.monoTree{
+  padding-bottom: 100px;
+}
